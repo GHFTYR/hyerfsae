@@ -1,6 +1,0 @@
-deploy:
-  - okteto build -t okteto.dev/ray:latest
-  - kubectl apply -f 
-  
-    hyerfsae
-  
