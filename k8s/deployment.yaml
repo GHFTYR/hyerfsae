@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hyerfsae
+  name: hgjgukk
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: hyerfsae
+      app: hgjgukk
   template:
     metadata:
       labels:
-        app: hyerfsae
+        app: hgjgukk
     spec:
       containers:
-      - image: okteto.dev/hyerfsae:latest
-        name: hyerfsae
+      - image: okteto.dev/hgjgukk:latest
+        name: hgjgukk
         ports:
         - containerPort: 8080
         env:
